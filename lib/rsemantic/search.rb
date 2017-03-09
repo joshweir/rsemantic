@@ -1,6 +1,6 @@
 module RSemantic
   class Search
-    attr_reader :builder
+    attr_reader :builder, :vector_space_model
 
     def initialize(documents, options = {})
       options = {
